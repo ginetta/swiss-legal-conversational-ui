@@ -56,6 +56,14 @@ curl -X POST 'http://localhost:6333/collections/swiss-or/snapshots/upload' \
 1. `yarn dev` to launch the development server
 1. Go to <http://localhost:3000> and try out the app
 
+## 🚀 Deploy your own app instance
+
+> NOTE: Ollama needs to be deployed separately.
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=ai-sdk-example):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fai%2Ftree%2Fmain%2Fexamples%2Fnext-langchain&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=ai-chat-langchain&repository-name=next-ai-chat-langchain)
+
 ## 👩🏽‍🏫 Learn More
 
 To learn more about LangChain, OpenAI, Next.js, and the Vercel AI SDK take a look at the following resources:
