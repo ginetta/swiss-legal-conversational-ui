@@ -30,7 +30,7 @@ There is two different ways to setup this project:
 2. `ollama run mistral` to download and install the model locally (Requires 4.1GB and 8GB of RAM)
 3. Open <http://localhost:11434> to check if _Ollama is running_
 4. `docker pull qdrant/qdrant`
-5. `docker run -p 6333:6333 qdrant/qdrant`
+5. `docker run --name qdrant -p 6333:6333 -v ${PWD}/snapshots:/snapshots qdrant/qdrant`
 
 Both Option 1 and 2 continue with the following setup:
 
